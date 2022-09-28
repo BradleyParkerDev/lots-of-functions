@@ -106,7 +106,7 @@ console.log(arraySummer(myArray) + "\n");
 console.log("---------------------------------------------------");
 
 // everyDivisible
-console.log("5. everyDivisible\n")
+console.log("6. everyDivisible\n")
 
 let n = 7;
 function everyDivisible(num){
