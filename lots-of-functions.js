@@ -90,14 +90,14 @@ console.log("---------------------------------------------------");
 console.log("5. arraySummer\n")
 
 function arraySummer(anArray){
-    let result = 0;
+    let sum = 0;
     for(let i = 0; i < anArray.length; i ++){
      
-        result = result + anArray[i] ;
+        sum = sum + anArray[i] ;
 
     }
 
-    return result;
+    return sum;
 }
 
 console.log(arraySummer(myArray) + "\n");
