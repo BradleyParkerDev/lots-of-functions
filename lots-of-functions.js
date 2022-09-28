@@ -103,5 +103,33 @@ function arraySummer(anArray){
 console.log(arraySummer(myArray) + "\n");
 
 
+console.log("---------------------------------------------------");
+
+// everyDivisible
+console.log("5. everyDivisible\n")
+
+let n = 7;
+function everyDivisible(num){
+    
+    if(num < 10){
+        for(let i = 1; i < 101; i ++){
+        
+            if(i % num == 0 ){
+                console.log(i);
+            }
+        }
+
+    }
+    else{
+        console.log("Your number is equal to or greater than 10!");
+    }
+    
+
+}
+everyDivisible(n);
+everyDivisible(10);
+everyDivisible(11);
+
+
 
 
